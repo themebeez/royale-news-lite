@@ -3,13 +3,13 @@
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 .
-. @ Project : Royale News 
+. @ Project : Royale News Lite
 .
-. @ Version : 2.0.0
+. @ Version : 1.0.0
 .
-. @ Since : May 12, 2017
+. @ Since : 9 April, 2019
 
-. @ Last Updated : April 3, 2019
+. @ Last Updated : April 10, 2019
 .
 . @ Author : Themebeez
 .
@@ -21,32 +21,10 @@
 */
 
 
-
-// bootstrap 3.3.7
-
-@import 'framework/bootstrap';
-
-
-
 // Variables for color & Typography
 
 @import 'variables/color';
 @import 'variables/typography';
-
-
-// Icon fonts ( fontAwesome )
-
-@import 'fonts/fontAwesome';
-
-
-
-// External plugins & library
-
-@import 'plugins/animate';
-@import 'plugins/meanmenu';
-@import 'plugins/owlcarousel';
-@import 'plugins/retina';
-
 
 
 // Custom Stylesheets
