@@ -23,26 +23,8 @@ h6 {
 
     font-family: $secondary_font;
     text-transform:uppercase;
-    font-weight:bold;
-    line-height:1.2;
-}
-
-h4 {
-    font-size: 19px;
-}
-
-h5 {
-    font-size: 16px;
-}
-
-
-// font weight 
-
-
-.highlight-right .highlight-info .news-title,
-.small-news-content .news-title {
-
-    font-weight:400;
+    font-weight:600;
+    line-height:1.1;
 }
 
 
@@ -51,6 +33,11 @@ h5 {
 .news-cat-link {
 
     line-height:1;
+}
+
+.site-title a  {
+
+    line-height:1.2;
 }
 
 .news-cat-link {
@@ -62,10 +49,12 @@ h5 {
 .section-title,
 .sidebar .widget-title,
 .footer .widget-title {
-
-    font-family: $secondary_font;
-    font-size: 21px;
+    
+    font-family:$primary_font;
+    font-size: 18px;
     font-weight:600;
+    line-height: 1.1;
+    padding: 7px 15px;
 }
 
 .entry-meta a,
@@ -89,14 +78,14 @@ h5 {
 .ticker-title {
     
     font-size:14px;
-    font-weight:600;
+    font-weight:500;
 }
 
 .news-title {
 
-    font-weight:500;
-    text-transform:uppercase;
-    line-height: 1.2;
+    font-weight:600;
+    text-transform:capitalize;
+    line-height: 1.1;
 }
 
 
@@ -132,6 +121,14 @@ h5 {
 =
 ====================================
 */
+
+
+.cat-links a,
+.highlight-left .cat-links a,
+.highlight-right .cat-links a {
+
+    padding:1px 10px;
+}
 
 .featured-widget-container {
 
@@ -193,9 +190,10 @@ h5 {
 
 .site-title a {
     
-    display:inline-block;
-    line-height: 1.1;
     font-family:$secondary_font;
+    font-size: 62px;
+    display:inline-block;
+    font-weight:bold;
 }
 
 .site-description {
@@ -207,10 +205,16 @@ h5 {
 // menu 
 
 .main-navigation .primary-menu li a {
+    
+    font-size: 15px;
+    font-weight:400;
+}
 
-    font-weight:600;
+.main-navigation ul.primary-menu>li>a {
+    
     text-transform:uppercase;
-    font-size: 13px;
+    font-weight:600;
+    font-size: 14px;
 }
 
 
@@ -227,12 +231,25 @@ h5 {
 
 .highlight-left .highlight-info .news-title {
 
-    font-size: 32px;
+    font-size: 38px;
 }
 
 .highlight-right .highlight-info .news-title {
 
-    font-size: 19px;
+    font-size: 22px;
+    font-weight:bold;
+}
+
+.small-news-title {
+
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.big-news-title,
+.highlight-carousel .news-title {
+
+    font-size: 28px;
 }
 
 
@@ -251,4 +268,12 @@ h5 {
     line-height:1.6;
     text-transform:inherit;
     font-size: 16px;
+}
+
+.scroll-top {
+
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000000;
+    cursor: pointer;
 }
