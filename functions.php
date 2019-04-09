@@ -30,17 +30,15 @@ if ( ! function_exists( 'royale_news_lite_enqueue_styles' ) ) {
 		// Enqueue Parent theme's main stylesheet
 		wp_enqueue_style( 'royale-news-lite-parent-main', get_template_directory_uri() . '/assets/dist/css/main.css' );
 
-        wp_enqueue_script( 'royale-news-lite-parent-bundle', get_stylesheet_directory_uri() . '/assets/dist/js/bundle.min.js' );
-
 		// Enqueue Child theme's stylesheet.
 		// Setting 'parent-style' as a dependency will ensure that the child theme stylesheet loads after it.
 		wp_enqueue_style( 'royale-news-lite-child-style', get_stylesheet_directory_uri() . '/style.css', array( 'royale-news-lite-parent-style' ) );
 
 		wp_enqueue_style( 'royale-news-lite-child-fonts', royale_news_lite_fonts_url() );
 
-        wp_enqueue_script( 'royale-news-lite-child-bundle', get_stylesheet_directory_uri() . '/assets/dist/js/bundle.min.js' , array('royale-news-lite-parent-bundle'));
-
 		wp_enqueue_style( 'royale-news-lite-child-main', get_stylesheet_directory_uri() . '/assets/dist/css/main.css' );
+
+        wp_enqueue_script( 'royale-news-lite-child-bundle', get_stylesheet_directory_uri() . '/assets/dist/js/bundle.min.js', array( 'jquery' ), true );
 	}
 }
 // Add enqueue function to the desired action.
