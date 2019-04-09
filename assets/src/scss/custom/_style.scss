@@ -1,6 +1,7 @@
 body {
 
     font-family: $primary_font;
+    font-size: 16px;
 }
 
 h1,
@@ -11,6 +12,8 @@ h5,
 h6 {
 
     font-family: $secondary_font;
+    text-transform:uppercase;
+    font-weight:500;
 }
 
 h4 {

@@ -1,0 +1,71 @@
+/*
+====================================
+=
+= Typo
+=
+==========================
+*/
+
+.entry-meta a,
+.entry-meta span,
+.cat-links a {
+
+    font-size:14px;
+}
+
+.entry-meta .comments-link a::before {
+
+    content: '\f0e5';
+    font-size: 12px;
+}
+
+.news-content p {
+
+    font-size: 15px;
+}
+
+
+/*
+====================================
+=
+= Header
+=
+==========================
+*/
+
+.site-identity {
+
+    padding:50px 0;
+    text-align:center;
+}
+
+.site-title a {
+    
+    display:block;
+    line-height: 1.1;
+    font-family:$secondary_font;
+}
+
+.site-description {
+
+    margin-top: 0;
+}
+
+
+// menu 
+
+.main-navigation .primary-menu li a {
+
+    font-weight:600;
+    text-transform:uppercase;
+    font-size: 13px;
+}
+
+
+/*
+====================================
+=
+= Frontpage widgets
+=
+==========================
+*/
