@@ -27,17 +27,24 @@ Royale News is distributed under the terms of the GNU GPLv2 or later.
 
 == Screenshots ==
 
-Girl With Camera
+City view
 License: CC0 Public Domain (http://creativecommons.org/publicdomain/zero/1.0 - CC0)
-Source: https://pxhere.com/en/photo/14200
+Source: https://pxhere.com/en/photo/36771
 
-Girls On Rocky Beach Taking Pictures
-License: CC0 Public Domain (http://creativecommons.org/publicdomain/zero/1.0 - CC0)
-Source: https://pxhere.com/en/photo/1409745
 
-Boats Anchored Between Small Islands
+Women smoking
 License: CC0 Public Domain (http://creativecommons.org/publicdomain/zero/1.0 - CC0)
-Source: https://pxhere.com/en/photo/606123
+Source: https://pxhere.com/en/photo/978164
+
+
+Women Smiling 
+License: CC0 Public Domain (http://creativecommons.org/publicdomain/zero/1.0 - CC0)
+Source: https://pxhere.com/en/photo/775024
+
+
+Man & Women looking each others
+License: CC0 Public Domain (http://creativecommons.org/publicdomain/zero/1.0 - CC0)
+Source: https://pxhere.com/en/photo/1269390
 
 
 == Installation ==
