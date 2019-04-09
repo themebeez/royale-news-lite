@@ -6,6 +6,68 @@
 ==========================
 */
 
+body {
+
+    font-family: $primary_font;
+    font-size: 16px;
+    line-height:1.6;
+    font-weight:400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    font-family: $secondary_font;
+    text-transform:uppercase;
+    font-weight:bold;
+    line-height:1.2;
+}
+
+h4 {
+    font-size: 19px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+
+// font weight 
+
+
+.highlight-right .highlight-info .news-title,
+.small-news-content .news-title {
+
+    font-weight:400;
+}
+
+
+// line height
+
+.news-cat-link {
+
+    line-height:1;
+}
+
+.news-cat-link {
+
+    font-size: 13px;
+}
+
+
+.section-title,
+.sidebar .widget-title,
+.footer .widget-title {
+
+    font-family: $secondary_font;
+    font-size: 21px;
+    font-weight:600;
+}
+
 .entry-meta a,
 .entry-meta span,
 .cat-links a {
@@ -24,6 +86,91 @@
     font-size: 15px;
 }
 
+.ticker-title {
+    
+    font-size:14px;
+    font-weight:600;
+}
+
+.news-title {
+
+    font-weight:500;
+    text-transform:uppercase;
+    line-height: 1.2;
+}
+
+
+
+/*
+====================================================
+=
+= Colors
+=
+====================================
+*/
+
+.ticker-news-section {
+
+    margin-top: 30px;
+}
+
+.ticker-news a {
+
+    color:$primary_color;
+}
+
+.ticker-news a:hover {
+
+    color:$secondary_color;
+}
+
+
+/*
+====================================================
+=
+= Spacing
+=
+====================================
+*/
+
+.featured-widget-container {
+
+    padding:30px 0 50px 0;
+}
+
+
+/*
+====================================================
+=
+= Mask
+=
+====================================
+*/
+
+
+.mask {
+
+    display:none;
+}
+
+.highlight-left .highlight-info,
+.highlight-right .highlight-info,
+.highlight-carousel .news-highlight-content .highlight-info {
+
+    z-index: 10;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding:30px;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(transparent),color-stop(40%,rgba(0,0,0,0.5)),to(#000));
+    background-image: linear-gradient(180deg,transparent 0%,rgba(0,0,0,0.5) 40%,#000 100%);
+}
+
+.highlight-right .highlight-info,
+.highlight-carousel .news-highlight-content .highlight-info {
+
+    padding:20px;
+}
 
 /*
 ====================================
@@ -39,9 +186,14 @@
     text-align:center;
 }
 
+.site-title {
+
+    line-height:0;
+}
+
 .site-title a {
     
-    display:block;
+    display:inline-block;
     line-height: 1.1;
     font-family:$secondary_font;
 }
@@ -69,3 +221,34 @@
 =
 ==========================
 */
+
+
+// Highlight section 
+
+.highlight-left .highlight-info .news-title {
+
+    font-size: 32px;
+}
+
+.highlight-right .highlight-info .news-title {
+
+    font-size: 19px;
+}
+
+
+/*
+===========================================
+=
+= Footer 
+=
+================================
+*/
+
+.copyright-text {
+
+    font-family:$primary_font;
+    font-weight:400;
+    line-height:1.6;
+    text-transform:inherit;
+    font-size: 16px;
+}

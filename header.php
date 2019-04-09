@@ -119,7 +119,7 @@
 
 						if( !empty( $ticker_title ) ) {
 							?>
-							<div class="col-xs-3 col-sm-3">
+							<div class="col-xs-3 col-sm-2">
 								<div class="ticker-title-container">
 									<p class="ticker-title"><?php echo esc_html( $ticker_title ); ?></p><!-- .ticker-title -->
 								</div><!-- .ticker-title-container -->								
