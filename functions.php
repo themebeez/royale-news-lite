@@ -47,7 +47,6 @@ add_action( 'wp_enqueue_scripts', 'royale_news_lite_enqueue_styles', 20 );
  * Funtion To Get Google Fonts
  */
 if ( !function_exists( 'royale_news_lite_fonts_url' ) ) {
-
     /**
      * Return Font's URL.
      *
@@ -77,5 +76,55 @@ if ( !function_exists( 'royale_news_lite_fonts_url' ) ) {
             ), 'https://fonts.googleapis.com/css');
         }
         return $fonts_url;
+    }
+}
+
+
+/**
+ * Funtion to define custom menu wrapper.
+ */
+if( ! function_exists( 'royale_news_lite_main_menu_wrap' ) ) {
+	/**
+     * Return HTML markup.
+     *
+     * @since 1.0.0
+     * @return HTML markup.
+     */
+	function royale_news_lite_main_menu_wrap() {
+
+	  	$wrap  = '<ul id="%1$s" class="%2$s">';
+	  	
+	  	$wrap .= '<li class="menu-home-icon"><a href="' . esc_url( home_url( '/' ) ) . '"><i class="fa fa-home" aria-hidden="true"></i></a></li>';
+
+	  	$wrap .= '%3$s';
+
+	  	$wrap .= '</ul>';
+
+	  	return $wrap;
+	}
+}
+
+/**
+ * Funtion to define fallback menu when menu is not set. 
+ */
+if ( !function_exists( 'royale_news_lite_primary_navigation_fallback' ) ) {
+	/**
+     * Return HTML markup.
+     *
+     * @since 1.0.0
+     * @return HTML markup.
+     */
+    function royale_news_lite_primary_navigation_fallback() {
+        ?>
+        <ul>
+        	<li><a href="<?php echo esc_url( home_url( '/' ) );?>"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+            <?php 
+            wp_list_pages( array( 
+                'title_li' => '', 
+                'depth' => 3,
+            ) ); 
+            ?>
+        </ul>
+        <?php    
     }
 }
