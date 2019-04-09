@@ -21,11 +21,16 @@
 
 <body <?php body_class(); ?>>
     <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'style-blog-fame' ); ?></a>
-
+	<?php if( get_background_image() ) { ?>
     <div class="main-wrapper">
-
+    <?php } ?>
     	<header class="site-header">
+    		<?php if( has_header_image() ) { ?>
+    		<div class="logo-section" style="background-image: url(<?php header_image(); ?>);">
+    		<?php } else { ?>
     		<div class="logo-section">
+    		<?php } ?>
+    			<div class="header-mask"></div><!-- .header-mask -->
     			<div class="container">
     				<div class="site-identity">
 	    				<?php
@@ -61,6 +66,7 @@
 			                                'menu_class'        => 'primary-menu',
 			                                'container'     	=> 'div',
 			                                'container_class'   => 'primary-menu-container',
+			                                'items_wrap' 		=> royale_news_lite_main_menu_wrap(),
 			                                'fallback_cb'    	=> 'royale_news_lite_primary_navigation_fallback',
 			                            )
 			                        );
