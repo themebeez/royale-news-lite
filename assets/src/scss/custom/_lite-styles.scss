@@ -22,9 +22,39 @@ h5,
 h6 {
 
     font-family: $secondary_font;
-    text-transform:uppercase;
-    font-weight:600;
+    text-transform:inherit;
+    font-weight:bold;
     line-height:1.1;
+}
+
+h1 {
+
+    font-size: 52px;
+}
+
+h2 {
+
+    font-size: 44px;
+}
+
+h3 {
+
+    font-size: 38px;
+}
+
+h4 {
+
+    font-size: 32px;
+}
+
+h5 {
+
+    font-size: 28px;
+}
+
+h6 {
+
+    font-size: 24px;
 }
 
 
@@ -437,6 +467,18 @@ body.home .ticker-title-container {
     cursor: pointer;
 }
 
+.footer #recentcomments .recentcomments, 
+.footer .widget_archive ul li, 
+.footer .widget_categories ul li, 
+.footer .widget_meta ul li, 
+.footer .widget_nav_menu ul li, 
+.footer .widget_pages ul li, 
+.footer .widget_recent_entries ul li, 
+.footer .widget_rew_plugin .rew-entries li, 
+.footer .widget_rss ul li {
+
+    border-bottom-color:#252525;
+}
 
 /*
 ===========================================
