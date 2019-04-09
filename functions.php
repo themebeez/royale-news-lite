@@ -14,6 +14,39 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
+if ( ! function_exists( 'royale_news_lite_setup' ) ) {
+
+    /**
+     * Sets up theme defaults and registers support for various WordPress features.
+     *
+     * Note that this function is hooked into the after_setup_theme hook, which
+     * runs before the init hook. The init hook is too late for some features, such
+     * as indicating support for post thumbnails.
+     */
+    function royale_news_lite_setup() {
+        /*
+         * Make theme available for translation.
+         * Translations can be filed in the /languages/ directory.
+         * If you're building a theme based on Royale News, use a find and replace
+         * to change 'royale-news' to the name of your theme in all the template files.
+         */
+        load_theme_textdomain( 'royale-news-lite', get_template_directory() . '/languages' );
+
+        /*
+         * Add theme support for custom header image and custom header text color
+         */
+        add_theme_support( 'custom-header', apply_filters( 'royale_news_lite_custom_header_args', array(
+            'default-image'          => '',
+            'default-text-color'     => '000000',
+            'width'                  => 1920,
+            'height'                 => 600,
+            'flex-height'            => true,
+            'wp-head-callback'       => 'royale_news_header_style',
+        ) ) );
+    }
+}
+add_action( 'after_setup_theme', 'royale_news_lite_setup', 10 );
+
 if ( ! function_exists( 'royale_news_lite_enqueue_styles' ) ) {
 	/**
 	 * Enqueue Styles.
@@ -40,7 +73,7 @@ if ( ! function_exists( 'royale_news_lite_enqueue_styles' ) ) {
 	}
 }
 // Add enqueue function to the desired action.
-add_action( 'wp_enqueue_scripts', 'royale_news_lite_enqueue_styles', 20 );
+add_action( 'wp_enqueue_scripts', 'royale_news_lite_enqueue_styles', 10 );
 
 
 /**
