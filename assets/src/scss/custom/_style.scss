@@ -1,28 +1,6 @@
-html,
-body {
-    margin: 0;
-    padding: 0;
-}
-
 body {
 
     font-family: $primary_font;
-}
-
-.main-wrapper {
-
-    max-width: 100%;
-    margin: auto;
-    width: 1200px;
-    background:$white;
-}
-
-@media( max-width: 1100px) {
-
-    .main-wrapper {
-
-        width: auto;
-    }
 }
 
 h1,
@@ -43,25 +21,11 @@ h5 {
     font-size: 16px;
 }
 
-a {
-    color: inherit;
-    transition-duration: .6s;
-}
-
-a:hover,
-a:focus,
-a:active {
-    text-decoration: none;
-    transition-duration: .6s;
-    color: rgba(244, 67, 54, 1);
-}
-
 .section-title,
 .sidebar .widget-title {
 
     font-family: $secondary_font;
 }
-
 
 .top-header {
 
