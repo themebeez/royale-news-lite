@@ -117,7 +117,7 @@
 				<div class="container">
 					<div class="row">
 						<?php
-						$ticker_class = 'col-xs-9 col-sm-9';
+						$ticker_class = 'col-xs-9 col-sm-10';
 
 						if( empty( $ticker_title ) ) {
 							$ticker_class = 'col-xs-12 col-sm-12';
@@ -125,7 +125,7 @@
 
 						if( !empty( $ticker_title ) ) {
 							?>
-							<div class="col-xs-3 col-sm-3">
+							<div class="col-xs-3 col-sm-2">
 								<div class="ticker-title-container">
 									<p class="ticker-title"><?php echo esc_html( $ticker_title ); ?></p><!-- .ticker-title -->
 								</div><!-- .ticker-title-container -->								

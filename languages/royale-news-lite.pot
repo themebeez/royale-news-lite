@@ -1,96 +1,46 @@
-# <!=Copyright (C) 2019 themebeez
-# This file is distributed under the GNU General Public License v2 or later.=!>
+# Copyright (C) 2019 royale-news-lite
+# This file is distributed under the same license as the royale-news-lite package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Royale News Lite 1.0.0\n"
-"Report-Msgid-Bugs-To: https://themebeez.com/support\n"
-"POT-Creation-Date: 2019-04-09 10:37:05+00:00\n"
+"Project-Id-Version: royale-news-lite\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
-"Last-Translator: themebeez <themebeez@gmail.com>\n"
-"Language-Team: themebeez <themebeez@gmail.com>\n"
-"X-Generator: grunt-wp-i18n 1.0.3\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Poedit-Basepath: .\n"
-"X-Poedit-Language: English\n"
-"X-Poedit-Country: UNITED STATES\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-KeywordsList: "
-"__;_e;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;esc_html__;esc_html_"
-"e;esc_html_x;_n_noop;_nx_noop;translate_nooped_plural;\n"
-"X-Textdomain-Support: yes\n"
+"Language-Team: Themebeez.com <contact@themebeez.com>\n"
+"Last-Translator: Themebeez <contact@themebeez.com>\n"
+"Report-Msgid-Bugs-To: https://themebeez.com/support/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: header.php:23
-msgid "Skip to content"
+#. translators: If there are characters in your language that are not supported by Merriweather, translate this to 'off'. Do not translate into your own language.
+#: functions.php:67
+msgctxt "Cormorant Garamond font: on or off"
+msgid "on"
 msgstr ""
 
-#: search.php:36
-#. translators: %s: search query.
-msgid "Search Results for: %s"
+#. translators: If there are characters in your language that are not supported by Merriweather, translate this to 'off'. Do not translate into your own language.
+#: functions.php:72
+msgctxt "Poppins font: on or off"
+msgid "on"
 msgstr ""
 
 #: template-parts/content-none.php:14
 msgid "Nothing Found"
 msgstr ""
 
-#: template-parts/content-none.php:26
 #. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:26
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
 #: template-parts/content-none.php:40
-msgid ""
-"Sorry, but nothing matched your search terms. Please try again with some "
-"different keywords."
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr ""
 
 #: template-parts/content-none.php:46
-msgid ""
-"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
-"searching can help."
-msgstr ""
-
-#. Theme Name of the plugin/theme
-msgid "Royale News Lite"
-msgstr ""
-
-#. Theme URI of the plugin/theme
-msgid "https://themebeez.com/themes/royale-news-lite/"
-msgstr ""
-
-#. Description of the plugin/theme
-msgid ""
-"Royale News Lite is a child theme of WordPress theme, Royale News. Royale "
-"News Lite is clean, responsive, user friendly and easily customizable. "
-"Royale News Lite is light weight and can be used to create and run news "
-"portal, online magazine, and other online publishing websites. With one "
-"click demo import, it is easy to setup your website. Royale News Lite is "
-"translation ready. For demos and more information visit, "
-"https://themebeez.com/themes/royale-news-lite."
-msgstr ""
-
-#. Author of the plugin/theme
-msgid "themebeez"
-msgstr ""
-
-#. Author URI of the plugin/theme
-msgid "https://themebeez.com/"
-msgstr ""
-
-#: functions.php:96
-#. translators: If there are characters in your language that are not supported
-#. by Merriweather, translate this to 'off'. Do not translate into your own
-#. language.
-msgctxt "Oswald Condensed font: on or off"
-msgid "on"
-msgstr ""
-
-#: functions.php:101
-#. translators: If there are characters in your language that are not supported
-#. by Merriweather, translate this to 'off'. Do not translate into your own
-#. language.
-msgctxt "Nunito Sans font: on or off"
-msgid "on"
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr ""
