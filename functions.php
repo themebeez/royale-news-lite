@@ -61,13 +61,13 @@ if ( !function_exists( 'royale_news_lite_fonts_url' ) ) {
         $subsets = 'latin,latin-ext';
 
         /* translators: If there are characters in your language that are not supported by Merriweather, translate this to 'off'. Do not translate into your own language. */
-        if ('off' !== _x('on', 'Oswald Condensed font: on or off', 'royale-news-lite')) {
-            $fonts[] = 'Oswald:400,500,600,700';
+        if ('off' !== _x('on', 'Cormorant Garamond font: on or off', 'royale-news-lite')) {
+            $fonts[] = 'Cormorant+Garamond:400,400i,600,600i,700,700i';
         }
 
         /* translators: If there are characters in your language that are not supported by Merriweather, translate this to 'off'. Do not translate into your own language. */
-        if ('off' !== _x('on', 'Nunito Sans font: on or off', 'royale-news-lite')) {
-            $fonts[] = 'Nunito+Sans:400,400i,600,700,700i';
+        if ('off' !== _x('on', 'Poppins font: on or off', 'royale-news-lite')) {
+            $fonts[] = 'Poppins:400,400i,500,600,700,700i';
         }
 
         if ($fonts) {
