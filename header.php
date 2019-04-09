@@ -117,7 +117,7 @@
 				<div class="container">
 					<div class="row">
 						<?php
-						$ticker_class = 'col-xs-9 col-sm-9';
+						$ticker_class = 'col-xs-9 col-sm-10';
 
 						if( empty( $ticker_title ) ) {
 							$ticker_class = 'col-xs-12 col-sm-12';
