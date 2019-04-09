@@ -36,11 +36,11 @@ if ( ! function_exists( 'royale_news_lite_enqueue_styles' ) ) {
 
 		wp_enqueue_style( 'royale-news-lite-child-fonts', royale_news_lite_fonts_url() );
 
-		wp_enqueue_style( 'royale-news-lite-child-main', get_stylesheet_directory_uri() . '/assets/dist/csss/main.css' );
+		wp_enqueue_style( 'royale-news-lite-child-main', get_stylesheet_directory_uri() . '/assets/dist/css/main.css' );
 	}
 }
 // Add enqueue function to the desired action.
-add_action( 'wp_enqueue_scripts', 'royale_news_lite_enqueue_styles' );
+add_action( 'wp_enqueue_scripts', 'royale_news_lite_enqueue_styles', 20 );
 
 
 /**
