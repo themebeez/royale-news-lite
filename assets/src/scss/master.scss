@@ -1,0 +1,55 @@
+/*
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+.
+. @ Project : Royale News 
+.
+. @ Version : 2.0.0
+.
+. @ Since : May 12, 2017
+
+. @ Last Updated : April 3, 2019
+.
+. @ Author : Themebeez
+.
+. @ Author URL : https://themebeez.com/
+.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+
+
+
+// bootstrap 3.3.7
+
+@import 'framework/bootstrap';
+
+
+
+// Variables for color & Typography
+
+@import 'variables/color';
+@import 'variables/typography';
+
+
+// Icon fonts ( fontAwesome )
+
+@import 'fonts/fontAwesome';
+
+
+
+// External plugins & library
+
+@import 'plugins/animate';
+@import 'plugins/meanmenu';
+@import 'plugins/owlcarousel';
+@import 'plugins/retina';
+
+
+
+// Custom Stylesheets
+
+@import 'custom/style';
+@import 'custom/skin';
