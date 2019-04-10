@@ -110,6 +110,12 @@ h6 {
     font-size: 15px;
 }
 
+.news-content.editor-content-entry p {
+
+    font-size: 16px;
+    line-height:1.9;
+}
+
 .ticker-title {
     
     font-size:14px;
@@ -461,6 +467,39 @@ body.home .ticker-title-container {
 .big-news-content .news-title {
 
     font-size: 28px;
+}
+
+
+.highlight-left-carousel.owl-carousel .owl-nav button.owl-next, 
+.highlight-left-carousel.owl-carousel .owl-nav button.owl-prev {
+
+    background:$secondary_color;
+    color:$white;
+}
+
+.highlight-left-carousel.owl-carousel .owl-nav button.owl-next:hover, 
+.highlight-left-carousel.owl-carousel .owl-nav button.owl-prev:hover {
+
+    background:$primary_color;
+    color:$white;
+}
+
+.highlight-left-carousel.owl-carousel .owl-nav button.owl-next:focus, 
+.highlight-left-carousel.owl-carousel .owl-nav button.owl-prev:focus {
+
+    outline:none;
+}
+
+
+// Sidebar widgets 
+
+
+.royale-news-recent-posts  .news-title {
+    
+    font-family:$primary_font;
+    font-size: 16px;
+    font-weight:400;
+    line-height:1.6;
 }
 
 
