@@ -27,10 +27,10 @@
     	<header class="site-header">
     		<?php if( has_header_image() ) { ?>
     		<div class="logo-section" style="background-image: url(<?php header_image(); ?>);">
+    			<div class="header-mask"></div><!-- .header-mask -->
     		<?php } else { ?>
     		<div class="logo-section">
     		<?php } ?>
-    			<div class="header-mask"></div><!-- .header-mask -->
     			<div class="container">
     				<div class="site-identity">
 	    				<?php
