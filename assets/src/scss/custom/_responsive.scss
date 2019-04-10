@@ -1,0 +1,102 @@
+@media (max-width:1024px) {
+
+    .site-title a {
+
+        font-size: 52px;
+    }
+
+}
+
+
+@media (max-width:991px) {
+
+
+    .logo-section {
+
+        padding: 60px 0;
+    }
+
+    .site-title a {
+
+        font-size: 48px;
+    }
+
+    .ticker-news-section .owl-nav {
+
+        display: none;
+    }
+
+    .ticker-news a {
+
+        width: 100%;
+        max-width: 100%;
+    }
+
+}
+
+
+@media (max-width:600px) {
+
+
+    // Typo for mobile 
+
+    h1 {
+
+        font-size: 42px;
+    }
+
+    h2 {
+
+        font-size: 36px;
+    }
+
+    h3 {
+
+        font-size: 32px;
+    }
+
+    h4 {
+
+        font-size: 26px;
+    }
+
+    h5 {
+
+        font-size: 24px;
+    }
+
+    h6 {
+
+        font-size: 22px;
+    }
+
+    .site-title a {
+
+        font-size: 38px;
+    }
+
+    .logo-section {
+
+        padding: 60px 0 40px 0;
+    }
+
+    .ticker-news-section {
+
+        display: none;
+    }
+
+    .highlight-left .highlight-info .news-title {
+
+        font-size: 32px;
+    }
+
+    .small-news-title {
+
+    	font-size: 24px;
+    }
+
+    .highlight-right .highlight-info .news-title {
+
+    	font-size: 26px;
+    }
+}
