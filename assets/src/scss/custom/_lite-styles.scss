@@ -133,6 +133,16 @@ h6 {
 ====================================
 */
 
+a:hover {
+
+    color:$secondary_color;
+}
+
+.cat-links a:hover {
+
+    background:$primary_color;
+}
+
 .ticker-news a {
 
     color:$primary_color;
@@ -141,6 +151,18 @@ h6 {
 .ticker-news a:hover {
 
     color:$secondary_color;
+}
+
+.mean-container a.meanmenu-reveal span {
+
+    background:$white;
+}
+
+
+.mean-container a.meanmenu-reveal.meanclose::before {
+
+    content: url(../../images/close-btn-white.png);
+
 }
 
 
