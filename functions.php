@@ -30,7 +30,7 @@ if( ! function_exists( 'royale_news_lite_setup' ) ) {
          * If you're building a theme based on Royale News, use a find and replace
          * to change 'royale-news' to the name of your theme in all the template files.
          */
-        load_child_theme_textdomain( 'royale-news-lite', get_template_directory() . '/languages' );
+        load_child_theme_textdomain( 'royale-news-lite', get_stylesheet_directory() . '/languages' );
 
         // Add theme support for header image.
         add_theme_support( 'custom-header', apply_filters( 'royale_news_lite_custom_header_args', array(
@@ -67,9 +67,9 @@ if ( ! function_exists( 'royale_news_lite_enqueue_styles' ) ) {
 
 		wp_enqueue_style( 'royale-news-lite-child-fonts', royale_news_lite_fonts_url() );
 
-		wp_enqueue_style( 'royale-news-lite-child-main', get_stylesheet_directory_uri() . '/assets/dist/css/main.css' );
+		wp_enqueue_style( 'royale-news-lite-child-main', get_stylesheet_directory() . '/assets/dist/css/main.css' );
 
-        wp_enqueue_script( 'royale-news-lite-child-bundle', get_stylesheet_directory_uri() . '/assets/dist/js/bundle.min.js', array( 'jquery' ), true );
+        wp_enqueue_script( 'royale-news-lite-child-bundle', get_stylesheet_directory() . '/assets/dist/js/bundle.min.js', array( 'jquery' ), true );
 	}
 }
 // Add enqueue function to the desired action.
