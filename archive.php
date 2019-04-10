@@ -31,8 +31,10 @@ get_header();
 							<div class="col-md-12">
 								<div class="news-section-info clearfix">
 									<?php the_archive_title( '<h3 class="section-title">', '</h3>' ); ?>
-									<?php the_archive_description( '<p>', '</p>' ); ?>
 								</div><!-- .news-section-info -->
+								<div class="archive-description news-section">
+									<?php the_archive_description( '<p>', '</p>' ); ?>
+								</div><!-- .archive-description -->
 							</div>
 						</div>
 						<?php
