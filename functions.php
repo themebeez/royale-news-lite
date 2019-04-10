@@ -30,7 +30,7 @@ if( ! function_exists( 'royale_news_lite_setup' ) ) {
          * If you're building a theme based on Royale News, use a find and replace
          * to change 'royale-news' to the name of your theme in all the template files.
          */
-        load_theme_textdomain( 'royale-news-lite', get_template_directory() . '/languages' );
+        load_child_theme_textdomain( 'royale-news-lite', get_template_directory() . '/languages' );
 
         // Add theme support for header image.
         add_theme_support( 'custom-header', apply_filters( 'royale_news_lite_custom_header_args', array(
