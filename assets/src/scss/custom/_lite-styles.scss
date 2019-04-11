@@ -314,6 +314,12 @@ a:hover {
     font-size: 14px;
     color:$white;
 }
+
+.main-navigation ul ul a {
+
+    width: 250px;
+}
+
 .main-navigation .menu-home-icon,
 .main-navigation ul.primary-menu>li>a:hover,
 .main-navigation .primary-menu li.current-menu-item>a:hover {
@@ -349,6 +355,18 @@ a:hover {
 .main-navigation .primary-menu li.current-menu-item>a:hover {
 
     color:$white;
+}
+
+.main-navigation .primary-menu li .sub-menu li a:hover, 
+.main-navigation .primary-menu li .sub-menu li a:focus {
+
+    color:$secondary_color;
+}
+
+.main-navigation .primary-menu li .sub-menu li a {
+
+    padding: 10px 20px;
+    text-transform:inherit; 
 }
 
 .menu-section .search-icon {
