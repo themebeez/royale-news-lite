@@ -69,7 +69,7 @@ if ( ! function_exists( 'royale_news_lite_enqueue_styles' ) ) {
 
 		wp_enqueue_style( 'royale-news-lite-child-main', get_stylesheet_directory_uri() . '/assets/dist/css/main.css' );
 
-        wp_enqueue_script( 'royale-news-lite-child-bundle', get_stylesheet_directory() . '/assets/dist/js/bundle.min.js', array( 'jquery' ), true );
+        wp_enqueue_script( 'royale-news-lite-child-bundle', get_stylesheet_directory_uri() . '/assets/dist/js/bundle.min.js', array( 'jquery' ), true );
 	}
 }
 // Add enqueue function to the desired action.
