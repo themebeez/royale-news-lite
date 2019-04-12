@@ -8,6 +8,13 @@
  */
 
 get_header(); 
+	
+	/**
+	* Hook - royale_news_breadcrumb.
+	*
+	* @hooked royale_news_breadcrumb_action - 10
+	*/
+	do_action( 'royale_news_breadcrumb' );
 	?>
 	<div id="primary" class="content-area <?php royale_news_inner_container_class(); ?>">
 		<main id="main" class="site-main">
