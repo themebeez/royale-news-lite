@@ -75,6 +75,21 @@ h6 {
     font-size: 13px;
 }
 
+.news-content a.btn-more {
+
+    display:inline-block;
+    background:$secondary_color;
+    color:$white;
+    font-size: 14px;
+    padding:10px 30px;
+    line-height:1;
+    margin-top: 10px;
+}
+
+.news-content a.btn-more:hover {
+
+    background:$primary_color;
+}
 
 .section-title,
 .sidebar .widget-title,
