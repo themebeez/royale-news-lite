@@ -13,6 +13,8 @@
  */
 
 get_header(); 
+
+	royale_news_pro_ticker_news();
 	?>
 	<div id="primary" class="content-area <?php royale_news_home_inner_container_class(); ?>">
 		<main id="main" class="site-main">
