@@ -56,6 +56,6 @@ Source: https://pxhere.com/en/photo/1269390
 
 == Changelog ==
 
-= 1.0.0 - 27, April 2019 =
+= 1.0.0 - 14, April 2019 =
 
 - Initial release
