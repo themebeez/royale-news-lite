@@ -35,6 +35,9 @@
             </div><!-- .entry-meta -->
             <div class="news-content">
             	<?php the_excerpt(); ?>
+            	<a href="<?php the_permalink(); ?>" class="btn-more">
+	            	<?php echo esc_html__( 'Read More', 'royale-news-lite' ); ?>
+	            </a><!-- .btn-more -->
             </div><!-- .news-content -->
 		</div><!-- .news-detail -->
 	</div><!-- .big-news-content -->
