@@ -366,6 +366,12 @@ a:hover {
     color:inherit;
 }
 
+.main-navigation .primary-menu li .sub-menu .current-menu-item a, 
+.main-navigation .primary-menu li .sub-menu .current-menu-item a:hover {
+
+    background:#000000;
+}
+
 .main-navigation .primary-menu li.current-menu-item>a, 
 .main-navigation .primary-menu li.current-menu-item>a:hover {
 
@@ -373,7 +379,8 @@ a:hover {
 }
 
 .main-navigation .primary-menu li .sub-menu li a:hover, 
-.main-navigation .primary-menu li .sub-menu li a:focus {
+.main-navigation .primary-menu li .sub-menu li a:focus,
+.main-navigation .primary-menu li .sub-menu .current-menu-item a:hover  {
 
     color:$secondary_color;
 }
