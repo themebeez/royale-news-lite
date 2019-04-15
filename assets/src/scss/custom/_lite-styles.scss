@@ -162,6 +162,7 @@ a:hover {
 .cat-links a:hover {
 
     background:$primary_color;
+    color:$white;
 }
 
 .ticker-news a {
@@ -366,6 +367,12 @@ a:hover {
     color:inherit;
 }
 
+.main-navigation .primary-menu li .sub-menu .current-menu-item a, 
+.main-navigation .primary-menu li .sub-menu .current-menu-item a:hover {
+
+    background:#000000;
+}
+
 .main-navigation .primary-menu li.current-menu-item>a, 
 .main-navigation .primary-menu li.current-menu-item>a:hover {
 
@@ -373,7 +380,8 @@ a:hover {
 }
 
 .main-navigation .primary-menu li .sub-menu li a:hover, 
-.main-navigation .primary-menu li .sub-menu li a:focus {
+.main-navigation .primary-menu li .sub-menu li a:focus,
+.main-navigation .primary-menu li .sub-menu .current-menu-item a:hover  {
 
     color:$secondary_color;
 }
@@ -572,6 +580,15 @@ body.home .ticker-title-container {
 .footer .widget_rss ul li {
 
     border-bottom-color:#252525;
+}
+
+
+// Breadcumbs 
+
+.breadcrumb {
+
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 
 /*
