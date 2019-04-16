@@ -5,7 +5,7 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 Requires at least: 4.8.0
 Requires PHP: 5.6
 Tested up to: 5.1.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -55,6 +55,11 @@ Source: https://pxhere.com/en/photo/1269390
 
 
 == Changelog ==
+
+= 1.0.1 - 16, April 2019 =
+
+- Text domain issues fixed
+
 
 = 1.0.0 - 14, April 2019 =
 
