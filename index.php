@@ -9,7 +9,7 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package Royale_News
+ * @package Royale_News_Lite
  */
 
 get_header(); 

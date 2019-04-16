@@ -28,7 +28,7 @@ if( ! function_exists( 'royale_news_lite_setup' ) ) {
          * Make theme available for translation.
          * Translations can be filed in the /languages/ directory.
          * If you're building a theme based on Royale News, use a find and replace
-         * to change 'royale-news' to the name of your theme in all the template files.
+         * to change 'royale-news-lite' to the name of your theme in all the template files.
          */
         load_child_theme_textdomain( 'royale-news-lite', get_stylesheet_directory() . '/languages' );
 
