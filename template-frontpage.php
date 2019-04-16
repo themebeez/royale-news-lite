@@ -37,7 +37,7 @@ get_header();
 					if( $sidebar_position == 'none' || !is_active_sidebar( 'sidebar-1' ) ) {
 						$class = 'col-md-12';
 					} else {
-						$class = 'col-md-8';
+						$class = 'col-md-8 sticky-section';
 					}
 
 					if( $sidebar_position == 'left' ) {

@@ -38,13 +38,13 @@ get_header();
 					if( $sidebar_position == 'none' || !is_active_sidebar( 'sidebar-1' ) ) {
 						$class = 'col-md-12';
 					} else {
-						$class = 'col-md-8';
+						$class = 'col-md-8 sticky-section';
 					}
 					if( $sidebar_position == 'left' ) {
 						get_sidebar();
 					}
 					?>
-					<div class="<?php echo esc_attr( $class ); ?> sticky-section">
+					<div class="<?php echo esc_attr( $class ); ?>">
 						<div class="row">
 							<?php
 							if( $sidebar_position == 'none' || !is_active_sidebar( 'sidebar-1' ) ) {
