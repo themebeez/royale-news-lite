@@ -20,7 +20,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-    <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'style-blog-fame' ); ?></a>
+    <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'royale-news-lite' ); ?></a>
 	<?php if( get_background_image() ) { ?>
     <div class="main-wrapper">
     <?php } ?>
